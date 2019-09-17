@@ -1,6 +1,162 @@
 body{
     margin: 0;
-    background: pink;
+    background:WHITE;
+    font-family: 'Brandon Grotesque','brandon-grotesque',Helvetica,sans-serif;
+    font-weight: normal;
 }
 
-ajflka
+header{
+    height: 65px;
+    width: 100%;
+    background:black;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    right: 10px;
+    
+}
+.spaceximg{
+    padding: 0 0 0 10px;
+}
+#nav1{
+    
+    width: 325px;
+    color: white;
+    display:flex;
+    cursor: pointer;
+    font-size: 12px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+#nav2{
+    
+    width: 300px ;
+    padding: 0 10px;
+    color: rgb(145, 139, 139);
+    display:flex;
+    cursor: pointer;
+    font-size: 10px;
+    justify-content: space-between;
+    
+
+}
+.pic{
+    height: 584px;
+    width: 100%;
+    background: white;
+    background-image: url("https://cdn.mos.cms.futurecdn.net/GFYDoaTkaTrpXVP6Vui7uR-970-80.jpg");
+    background-repeat: none;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.pichead{
+    background: radial-gradient(grey);
+    height: 100px;
+    width: 100%;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    bottom: 0px;
+
+
+}
+.pichead:hover{
+    background: rgb(54, 52, 52);
+    transition: 1s;
+}
+.picleft{
+    font-size: 30px;
+    padding: 0 0 0 20px;
+    font-weight: bolder;
+}
+.butbox{
+    padding: 0 10px 0 0 ;
+}
+button{
+    border: 0;
+    border-radius: 5%;
+    height: 25px;
+    width: 125px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.slidetab{
+    background: rgb(54, 52, 52);
+    height: 50px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+
+    
+}
+.hov{
+    height: 100%;
+    width: 100%;
+}
+.hov:hover{
+    background-color: rgb(26, 24, 24);
+    transition: 1s;
+}
+.midh5{
+    height: 150px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.picbox{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px
+}
+.picone{
+    height: 200px;
+    width: 200px;
+    border: solid grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 5px 5px 5px;
+}
+.imgpone{
+    width: 80%;
+}
+.pictwo{
+    height: 200px;
+    width: 200px;
+    border: solid grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 5px 5px 5px;
+}
+.picthree{
+    height: 200px;
+    width: 200px;
+    border: solid grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 5px 5px 5px;
+}
+p{
+    left: 5px;
+    color: blue;
+    font-size: 10px;
+}
